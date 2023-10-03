@@ -42,9 +42,11 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       <Typography
         fontSize="24px"
         fontWeight="bold"
+        fontFamily="Alegreya"
         color="#3A1212"
         textTransform="capitalize"
       >
+        {" "}
         {item}
       </Typography>
     </Stack>

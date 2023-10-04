@@ -6,7 +6,6 @@ import { fetchData, exercisesOptions } from "../utils/fetchData";
 import ExercisesCard from "./ExercisesCard";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
-  console.log(exercises);
   return (
     <Box id="exercises" sx={{ mt: { lg: "110px" } }} mt="50px" p="20px">
       <Typography variant="h3" mb="46px">
